@@ -1,0 +1,77 @@
+body {
+  background: #050505;
+  color: #ccc;
+  font: 13px/20px Arial, "微软雅黑", Helvetica, sans-serif;
+}
+.stbig {
+  font-size: 20px;
+  font-weight:bold;
+  color:#69b0ff;
+}
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-bottom: 20px;
+}
+#nav {
+  left: 20px;
+  list-style: none;
+  position: fixed;
+  top: 80px;
+}
+#nav li {
+  margin-bottom: 2px;
+}
+#nav a {
+  background: #505050;
+  color: #666;
+  display: block;
+  font-size: 13px;
+  padding: 5px 10px;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+}
+#nav a:hover {
+  background: #303030;
+}
+#nav .current a {
+  background: #909090;
+  color: #ededed;
+}
+.current {
+  background: red;
+}
+#container {
+  margin: 0 auto;
+  width: 800px;
+}
+.section {
+  padding: 20px;
+}
+.section p:last-child {
+  margin-bottom: 0;
+}
+.titlename {
+  line-height:20px;
+  font-size:16px;
+  font-weight:bold
+}
+.button td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gs b {
+  line-height:30px;
+  font-size: 18px;
+}
+.gs2 b {
+  line-height:30px;
+  font-size: 16px;
+}
+.name {
+  font-size:20px;
+  margin-left:15px;
+}
